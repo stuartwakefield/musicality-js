@@ -6,7 +6,6 @@ var Beat = musicality.Beat;
 var fns = require('./fns');
 var oscillate = fns.oscillate;
 var playDegrees = fns.playDegrees;
-var app = document.querySelector('.app');
 
 var AudioContext = (window.AudioContext || window.webkitAudioContext);
 var context = new AudioContext();
